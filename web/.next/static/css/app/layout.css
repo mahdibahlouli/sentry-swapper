@@ -311,7 +311,7 @@ body,
     padding: 0;
     margin: 0;
     background-color: #030303; /* Dark page background */
-    color: #3df63c; /* Bright green text */
+    color: #474747; /* Bright green text */
     font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -331,8 +331,8 @@ button,
     -moz-appearance: none;
     appearance: none;
     background-color: #000000 !important; /* Black background */
-    color: #3df63c; /* Bright green text */
-    border: 1px solid #185318; /* Green border */
+    color: #494949; /* Bright green text */
+    border: 1px solid #414141; /* Green border */
     border-radius: 10px;
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -349,19 +349,19 @@ button,
 button:hover,
 .wallet-adapter-button:hover,
 #jupiter-terminal button:hover {
-    background-color: #0b1c0c; /* Slightly darker green */
+    background-color: #000000; /* Slightly darker green */
 }
 
 button:active,
 .wallet-adapter-button:active,
 #jupiter-terminal button:active {
-    background-color: #0a190a; /* Even darker green */
+    background-color: #000000; /* Even darker green */
 }
 
 button:focus-visible,
 .wallet-adapter-button:focus-visible,
 #jupiter-terminal button:focus-visible {
-    outline: 2px solid #185318; /* Green focus outline */
+    outline: 2px solid #333333; /* Green focus outline */
 }
 
 button[disabled],
@@ -385,15 +385,15 @@ button[disabled],
 }
 
 #jupiter-terminal .bg-black\/10 {
-    background-color: #0d210e !important; /* Dark green */
+    background-color: #000000 !important; /* Dark green */
 }
 
 #jupiter-terminal .border-white\/10 {
-    border-color: #185318 !important; /* Green border */
+    border-color: #1d1d1d !important; /* Green border */
 }
 
 #jupiter-terminal .text-white\/30 {
-    color: #3df63c !important; /* Bright green */
+    color: #313131 !important; /* Bright green */
 }
 
 #jupiter-terminal .p-2 {
@@ -418,7 +418,7 @@ button[disabled],
 
 #jupiter-terminal .flex {
     background-color: #000000; /* Black background */
-    color: #3df63c; /* Green text */
+    color: #222222; /* Green text */
     display: flex;
 }
 
@@ -426,24 +426,24 @@ button[disabled],
 #jupiter-terminal ::before,
 #jupiter-terminal ::after {
     background-color: #000000;
-    color: #3df63c;
+    color: #ffffff;
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
-    border-color: #185318;
+    border-color: #222222;
     border-radius: 10px;
 }
 
 /* Modal Styling */
 .wallet-adapter-modal {
     background: rgba(8, 8, 8, 0.95); /* Semi-transparent dark background */
-    color: #3df63c; /* Bright green text */
+    color: #ffffff; /* Bright green text */
 }
 
 .wallet-adapter-modal-button-close {
-    background: #0d210e; /* Dark green */
-    border: 1px solid #185318;
-    color: #3df63c;
+    background: #000000; /* Dark green */
+    border: 1px solid #2b2b2b;
+    color: #ffffff;
 }
 
 .wallet-adapter-modal-button-close:hover {
@@ -453,8 +453,8 @@ button[disabled],
 /* Dropdown Styling */
 .wallet-adapter-dropdown-list {
     background: #080808; /* Dark background */
-    color: #3df63c; /* Bright green text */
-    border: 1px solid #185318;
+    color: #bebebe; /* Bright green text */
+    border: 1px solid #292929;
 }
 
 .wallet-adapter-dropdown-list-item:hover {
@@ -473,7 +473,7 @@ button[disabled],
 
 #jupiter-terminal .bg-v2-lily\/10 {
     background-color: #000000 !important;
-    border: 1px solid #185318 !important;
+    border: 1px solid #313131 !important;
 }
 
 .wallet-adapter-modal-wrapper {
@@ -499,4 +499,3 @@ button[disabled],
 #jupiter-terminal :is(.space-x-2>:not([hidden])~:not([hidden])) {
     display: none !important; /* Completely hide the element */
 }
-
