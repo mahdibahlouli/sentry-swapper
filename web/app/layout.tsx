@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 export const metadata = {
   title: 'ARBI Swap',
-  description: 'Powered by $Sentry',
+  description: 'Powered by $ARBI',
   favicon: "web/public/favicon.ico"
 
 };
