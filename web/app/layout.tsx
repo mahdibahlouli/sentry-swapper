@@ -5,7 +5,7 @@ import { SolanaProvider } from '@/components/solana/solana-provider';
 import Head from 'next/head';
 
 export const metadata = {
-  title: 'Sentry swap',
+  title: 'Arbi swap',
   description: 'Powered by $Sentry',
   favicon: "web/public/favicon.ico"
 
